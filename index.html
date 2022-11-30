@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles-index.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo-titulo">
+            <div><img class="logo" src="./images/logo.jpg" alt="logo"></div>
+            <div><h1 class="titulo">TRAVEL</h1></div>
+        </div>
+        <nav>
+            <ul>
+                <a href="./index.html"><li class="btn">INICIO</li></a>
+                <a href="./pages/horarios.html"><li class="btn">HORARIOS</li></a>
+                <a href="./pages/contrataciones.html"><li class="btn">CONTRATACIONES</li></a>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <section class="main-index">
+        <h2>Compra tu pasaje:</h2>
+        <!-- FORMULARIO DE COMPRA -->
+        <form class="form-index" action="">
+            <div>
+                <label for="origen">Seleccione origen:</label>
+                <select name="Seleccione" id="origen">
+                    <option value="">Montevideo</option>
+                    <option value="">San José</option>
+                    <option value="">Colonia</option>
+                    <option value="">Maldonado</option>
+                </select>
+            </div>
+            <div>
+                <label for="destino">Seleccione destino:</label>
+                <select name="Seleccione" id="destino">
+                    <option value="">Montevideo</option>
+                    <option value="">San José</option>
+                    <option value="">Colonia</option>
+                    <option value="">Maldonado</option>
+                </select>
+            </div>
+            <div>
+                <label for="ida">Ida</label>
+                <input type="checkbox" id="ida" value="solo-ida">
+                <label for="ida-vuelta">Ida y vuelta</label>
+                <input type="checkbox" id="ida-vuelta" value="ida-vuelta">
+            </div>
+            <div>
+                <label for="fida">Fecha de salida:</label>
+                <input type="date" id="fida">
+            </div>
+            <div>
+                <label for="fvuelta">Fecha de regreso:</label>
+                <input type="date" id="fvuelta">
+            </div>
+            <div>
+                <label for="nropsj">Número de pasajeros:</label>
+                <select name="Seleccione" id="nropsj">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
+            <input type="submit" value="Buscar" id="buscar">
+        </form>
+    </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <a href="./pages/contacto.html"><li class="btn">CONTACTANOS</li></a>
+            <a href="./pages/sobre-nosotros.html"><li class="btn">SOBRE NOSOTROS</li></a>
+        </ul>
+    </footer>
+</body>
+</html>
